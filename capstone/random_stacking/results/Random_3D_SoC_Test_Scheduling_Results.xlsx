@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="Header">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#1F4E79" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="Title">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="14" ss:Color="#1F4E79" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="DataCell">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="BoldData">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="SafeStatus">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Calibri" ss:Size="11" ss:Color="#006100" ss:Bold="1"/>
+   <Interior ss:Color="#C6EFCE" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Multi-Seed Statistical Results">
+  <Table>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="Title"><Data ss:Type="String">Multi-Seed Statistical Benchmark Performance Table (Seeds 42, 100, 2024)</Data></Cell>
+   </Row>
+   <Row ss:Height="10"/>
+   <Row ss:Height="24">
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Benchmark</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Algorithm</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Best Makespan (Cycles)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Mean ± Std Dev (Cycles)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Reduction Range %</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Peak Power (W)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Max Power (W)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Peak Tj (°C)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Max TSV Used</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">TSV Budget</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Empirical Status</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Greedy 3D Baseline</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">322500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">322,500 ± 0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Baseline</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45.89</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">68.9</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Artificial Bee Colony (ABC 3D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">321,333 ± 1179</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">-[-0.2% to 0.6%]</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">21.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45.89</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">60.1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Bat 3D Algorithm</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">328000</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">328,667 ± 943</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">-[-2.3% to -1.7%]</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45.89</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">68.9</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Firefly 3D Algorithm</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">322,167 ± 1179</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">-[-0.2% to 0.6%]</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45.89</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">68.9</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Modified ACO (MACO 3D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">321,167 ± 943</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">-[0.0% to 0.6%]</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45.89</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">68.9</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">d695</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">MACO 3D + ML Scaled</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">469500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">469,500 ± 0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">-[-45.6% to -45.6%]</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">14.8</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">45.89</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">60.1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Greedy 3D Baseline</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">451000</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">451,000 ± 0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Baseline</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">46.65</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">94.05</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">94.4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Artificial Bee Colony (ABC 3D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">420748</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">425,132 ± 3341</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">-[4.9% to 6.7%]</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">43.05</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">94.05</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">92.8</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Bat 3D Algorithm</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">420150</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">423,616 ± 2722</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">-[5.4% to 6.8%]</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">39.9</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">94.05</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">84.1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Firefly 3D Algorithm</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">417998</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">419,215 ± 1721</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">-[6.5% to 7.3%]</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">39.45</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">94.05</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">94.4</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Modified ACO (MACO 3D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">417448</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">419,032 ± 1864</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">-[6.5% to 7.4%]</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">46.65</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">94.05</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">92.7</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">p22810</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">MACO 3D + ML Scaled</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">1237796</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">1,237,796 ± 0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">-[-174.5% to -174.5%]</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16.0</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">94.05</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">65.1</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+ <Worksheet ss:Name="3D HIL Replay Summary">
+  <Table>
+   <Row ss:Height="25">
+    <Cell ss:StyleID="Title"><Data ss:Type="String">3D Hardware-in-the-Loop (HIL) Tester Replay Summary (Raspberry Pi 5)</Data></Cell>
+   </Row>
+   <Row ss:Height="10"/>
+   <Row ss:Height="24">
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Algorithm</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Hardware Mode</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Makespan Cycles</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Replayed Cycles</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Total Wall Clock (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Pure Simulation (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Overhead (s)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Overhead %</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Peak Power (W)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Peak Tj (°C)</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Max TSV Used</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">Status</Data></Cell>
+   </Row>
+   <Row ss:Height="20">
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">Modified ACO (MACO 3D)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">RPi 5 Tester Bridge (Mock)</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">320500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">469500</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">4.7132</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">3.205</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">0.00401</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="String">47.06%</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">22.2</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">68.87</Data></Cell>
+    <Cell ss:StyleID="DataCell"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="SafeStatus"><Data ss:Type="String">Safe</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

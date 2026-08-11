@@ -1,0 +1,4 @@
+2D Hardware-in-the-Loop (HIL) Tester Bridge Metrics (Raspberry Pi 5)
+
+Algorithm,Hardware Mode,Makespan Cycles,Total Wall Clock (s),Pure Simulation (s),Hardware Overhead (s),Overhead %,Peak Power (W),Status
+Modified ACO (MACO 2D),RPi 5 Tester Bridge (Mock),320500,3.205,3.205,3e-06,0.00%,21.0,Safe

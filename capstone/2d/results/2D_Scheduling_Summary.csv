@@ -1,0 +1,13 @@
+2D Planar SoC Test Scheduling Performance Across Metaheuristics
+
+Benchmark,Algorithm,Makespan (Test Cycles),Peak Power (W),Max Power (W),TAM Used,Max TAM,Runtime (s),Status
+d695,Greedy 2D Baseline,322500,22.2,45.89,16,16,0.042,Safe
+d695,Artificial Bee Colony (ABC 2D),323000,22.2,45.89,16,16,13.134,Safe
+d695,Bat 2D Algorithm,322500,22.2,45.89,16,16,7.931,Safe
+d695,Firefly 2D Algorithm,323000,22.2,45.89,16,16,0.828,Safe
+d695,Modified ACO (MACO 2D),320500,21.0,45.89,16,16,3.893,Safe
+p22810,Greedy 2D Baseline,420700,47.8,94.05,32,32,0.33,Safe
+p22810,Artificial Bee Colony (ABC 2D),417700,53.2,94.05,32,32,115.766,Safe
+p22810,Bat 2D Algorithm,420700,39.9,94.05,32,32,55.008,Safe
+p22810,Firefly 2D Algorithm,420000,51.4,94.05,32,32,21.977,Safe
+p22810,Modified ACO (MACO 2D),421450,43.95,94.05,32,32,36.98,Safe
