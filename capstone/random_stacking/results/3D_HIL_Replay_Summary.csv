@@ -1,0 +1,4 @@
+3D Hardware-in-the-Loop (HIL) Tester Replay Summary (Raspberry Pi 5)
+
+Algorithm,Hardware Mode,Makespan Cycles,Replayed Cycles,Total Wall Clock (s),Pure Simulation (s),Overhead (s),Overhead %,Peak Power (W),Peak Tj (°C),Max TSV Used,Status
+Modified ACO (MACO 3D),RPi 5 Tester Bridge (Mock),320500,469500,4.7132,3.205,0.00401,47.06%,22.2,68.87,16,Safe

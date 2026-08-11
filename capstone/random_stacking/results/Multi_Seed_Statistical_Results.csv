@@ -1,0 +1,15 @@
+"Multi-Seed Statistical Benchmark Performance Table (Seeds 42, 100, 2024)"
+
+Benchmark,Algorithm,Best Makespan (Cycles),Mean ± Std Dev (Cycles),Reduction Range %,Peak Power (W),Max Power (W),Peak Tj (°C),Max TSV Used,TSV Budget,Empirical Status
+d695,Greedy 3D Baseline,322500,"322,500 ± 0",Baseline,22.2,45.89,68.9,16,16,Safe
+d695,Artificial Bee Colony (ABC 3D),320500,"321,333 ± 1179",-[-0.2% to 0.6%],21.0,45.89,60.1,16,16,Safe
+d695,Bat 3D Algorithm,328000,"328,667 ± 943",-[-2.3% to -1.7%],22.2,45.89,68.9,16,16,Safe
+d695,Firefly 3D Algorithm,320500,"322,167 ± 1179",-[-0.2% to 0.6%],22.2,45.89,68.9,16,16,Safe
+d695,Modified ACO (MACO 3D),320500,"321,167 ± 943",-[0.0% to 0.6%],22.2,45.89,68.9,16,16,Safe
+d695,MACO 3D + ML Scaled,469500,"469,500 ± 0",-[-45.6% to -45.6%],14.8,45.89,60.1,16,16,Safe
+p22810,Greedy 3D Baseline,451000,"451,000 ± 0",Baseline,46.65,94.05,94.4,24,24,Safe
+p22810,Artificial Bee Colony (ABC 3D),420748,"425,132 ± 3341",-[4.9% to 6.7%],43.05,94.05,92.8,24,24,Safe
+p22810,Bat 3D Algorithm,420150,"423,616 ± 2722",-[5.4% to 6.8%],39.9,94.05,84.1,16,24,Safe
+p22810,Firefly 3D Algorithm,417998,"419,215 ± 1721",-[6.5% to 7.3%],39.45,94.05,94.4,16,24,Safe
+p22810,Modified ACO (MACO 3D),417448,"419,032 ± 1864",-[6.5% to 7.4%],46.65,94.05,92.7,24,24,Safe
+p22810,MACO 3D + ML Scaled,1237796,"1,237,796 ± 0",-[-174.5% to -174.5%],16.0,94.05,65.1,8,24,Safe

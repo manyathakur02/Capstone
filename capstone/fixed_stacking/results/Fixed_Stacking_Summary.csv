@@ -1,0 +1,13 @@
+Structured Fixed 3D Stacking Benchmark Summary (Table 2 Partitioning Alignment)
+
+Benchmark,Algorithm,Makespan (Test Cycles),Peak Power (W),Max Power (W),Peak Tj (°C),Max Temp (°C),TSV Used,TSV Budget,Status,Runtime (s)
+d695,Greedy 3D Baseline,322500,22.2,45.89,48.5,95.0,16,16,Safe,0.003
+d695,Artificial Bee Colony (ABC 3D),320500,21.0,45.89,39.8,95.0,16,16,Safe,0.098
+d695,Bat 3D Algorithm,323000,22.2,45.89,48.5,95.0,16,16,Safe,0.068
+d695,Firefly 3D Algorithm,323000,19.7,45.89,39.8,95.0,16,16,Safe,0.04
+d695,Modified ACO (MACO 3D),320500,22.2,45.89,48.5,95.0,16,16,Safe,0.096
+p22810,Greedy 3D Baseline,449348,41.7,94.05,69.5,95.0,24,24,Safe,0.006
+p22810,Artificial Bee Colony (ABC 3D),436149,50.5,94.05,76.8,95.0,24,24,Safe,0.653
+p22810,Bat 3D Algorithm,436898,42.6,94.05,57.7,95.0,24,24,Safe,0.735
+p22810,Firefly 3D Algorithm,435896,43.05,94.05,57.2,95.0,24,24,Safe,4.074
+p22810,Modified ACO (MACO 3D),435197,46.9,94.05,68.0,95.0,24,24,Safe,0.756
